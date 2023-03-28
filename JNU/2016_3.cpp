@@ -15,7 +15,7 @@ int main() {
     for (int i = 0; i < idx; ++i) {
         if (str[i] == 'a' && str[i + 1] == 't') {
             atcount++;
-        }
+        } 
         if (str[i] == '\n')
             newlinecount++;
     }
